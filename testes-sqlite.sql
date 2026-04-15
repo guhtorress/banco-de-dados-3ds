@@ -26,3 +26,5 @@ INSERT INTO Clientes (Nome) VALUES ('Bruno');
 
 -- Teste da FK ou chave estrangeira
 INSERT INTO Pedidos (ClienteID, DataPedido) VALUES (99, '2026-04-08');
+-- Verificação da FK
+PRAGMA foreign_key_list(Pedidos);
